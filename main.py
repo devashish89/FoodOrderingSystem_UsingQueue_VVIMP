@@ -8,9 +8,6 @@ class Queue:
     def __init__(self):
         self.buffer = deque()
 
-    # def peek(self):
-    #     return self.buffer[0]
-
     def enqueue(self, order):
         self.buffer.append(order)
 
